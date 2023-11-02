@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" user_selectable="1" addon_id="SModders/TelegramTwoFactor" base_version_id="2020570" export_version="2">
+  <phrase title="smodders_tgtwofactor.you_dont_have_account" addon_id="SModders/TelegramTwoFactor" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[У вас нет подключенного аккаунта Telegram для добавления этого поставщика двухфакторной авторизации.]]></phrase>
+  <phrase title="smtgtfa.buttons_login_info" addon_id="SModders/TelegramTwoFactor" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Мы отправили сообщение в ваш Telegram. После того как вы его одобрите, вы войдете в систему.<br />
+<br />Если Вы не получили или не можете получить уведомление, Вы можете <a href="{logout}">Выйти</a> или попробовать другой метод.]]></phrase>
+  <phrase title="smtgtfa.code_sended" addon_id="SModders/TelegramTwoFactor" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Мы отправили код в Telegram.]]></phrase>
+  <phrase title="smtgtfa.confirmation_code" addon_id="SModders/TelegramTwoFactor" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Код подтверждения от ПМ]]></phrase>
+  <phrase title="smtgtfa.denied" addon_id="SModders/TelegramTwoFactor" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Запрос на одобрение был отклонен, поэтому мы не можем войти в систему в данный момент.]]></phrase>
+  <phrase title="smtgtfa.message_button_confirmation" addon_id="SModders/TelegramTwoFactor" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Для авторизации данного запроса нажмите кнопку <b>Принять</b>.]]></phrase>
+  <phrase title="smtgtfa.message_code_confirmation" addon_id="SModders/TelegramTwoFactor" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Для авторизации данного запроса скопируйте следующий код и вставьте на страницу:
+{code}]]></phrase>
+  <phrase title="smtgtfa.message_header" addon_id="SModders/TelegramTwoFactor" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[<a href="{user_profile}">{user_name}</a>, мы получили запрос на вход в систему на <a href="{board_url}">{board_title}</a> с помощью учетной записи Telegram.]]></phrase>
+  <phrase title="smtgtfa.success" addon_id="SModders/TelegramTwoFactor" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Запрос на утверждение прошел успешно, и вы успешно вошли в систему.]]></phrase>
+  <phrase title="tfa.smtgtfa_click" addon_id="SModders/TelegramTwoFactor" version_id="2000010" version_string="2.0.0 Alpha" global_cache="1"><![CDATA[Авторизация через кнопку Telegram]]></phrase>
+  <phrase title="tfa.smtgtfa_code" addon_id="SModders/TelegramTwoFactor" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Код верификации через Telegram]]></phrase>
+  <phrase title="tfa_desc.smtgtfa_click" addon_id="SModders/TelegramTwoFactor" version_id="2000010" version_string="2.0.0 Alpha" global_cache="1"><![CDATA[Это приведет к отправке кнопки подтверждения через Telegram для проверки входа в систему. По возможности следует выбирать другие методы двухэтапной верификации, а не этот.]]></phrase>
+  <phrase title="tfa_desc.smtgtfa_code" addon_id="SModders/TelegramTwoFactor" version_id="2000010" version_string="2.0.0 Alpha" global_cache="1"><![CDATA[Это позволит отправить код через Telegram для подтверждения входа в систему. По возможности следует выбирать другие методы двухэтапной верификации, а не этот.]]></phrase>
+</language>
